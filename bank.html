@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<section class="BalanceHistory">
+    <div class="container">
+        <h1>Balance History</h1>
+        <div class="row history">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 margin">
+            <div class="depositBalance">
+                <h3>Deposit</h3>
+                <h3>$ <span id="depositBalance">00</span></h3>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 margin">
+            <div class="WithdarwBalance">
+                <h3>withdraw</h3>
+                <h3>$<span id="WithdarwBalance">00</span></h3>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12 margin">
+            <div class="Current Balance">
+                <h3>Current Balance</h3>
+                <h3>$ <span id="CurentBalance">00</span></h3>
+            </div>
+        </div>
+        </div>
+        <div class="row amountInputPart">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="deposit">
+                    <h4>Deposit</h4>
+                    <input type="text" id="Deposit_Input" placeholder="Withdraw Amount">
+                    <button id="depositBtn">Deposit</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="withdraw">
+                    <h4>Widthdraw</h4>
+                    <input type="text" id="withdraw_iput" placeholder="Withdraw Amount">
+                    <button id="withdrwaBtn">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/utilities.js"></script>
+<script src="js/functionDep.js"></script>
+<script src="js/functWithd.js"></script>
+
+
+<!-- <script src="js/index.js"></script>
+<script src="js/withdraw.js"></script>
+<script src="js/deposit.js"></script> -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
